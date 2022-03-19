@@ -15,4 +15,12 @@ import Serpiente from './Serpiente.js'
     const animales = await getAnimales(url)
     console.log(animales)
 
+    document.querySelector('#btnRegistrar').addEventListener('click', () => {
+        let nombre = document.querySelector('#animal')
+        let anios = document.querySelector('#edad')
+        let comentario = document.querySelector('#comentario')
+        let card = document.querySelector('#preview')
+    })
 })()
+
+
