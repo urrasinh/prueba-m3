@@ -1,3 +1,3 @@
-import Animales from './index.js'
+import Animal from './index.js'
 
 
