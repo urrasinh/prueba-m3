@@ -5,7 +5,7 @@ import Oso from './Oso.js'
 import Serpiente from './Serpiente.js'
 
 (async () => {
-    const url = "http://localhost:5501/animales.json"
+    const url = "http://127.0.0.1:3002/animales.json"
     const getAnimales = async (url) => {
         const respuesta = await fetch(url)
         const resultado = await respuesta.json()
@@ -24,7 +24,8 @@ import Serpiente from './Serpiente.js'
         let animalNuevo;
         const buscarAnimal = animales.animales.find((animal) => animal.name === nombre.value)
         if (nombre.value === "Leon") {
-            animalNuevo = new Leon(nombre.value, edad.value, buscarAnimal.imagen, comentarios.value, buscarAnimal.sonido)
+            animalNuevo = new Leon(nombre.value,
+                 anios.value, buscarAnimal.imagen, comentarios.value, buscarAnimal.sonido)
         }
         else if (nombre.value === "Lobo") {
             animalNuevo = new Lobo(
