@@ -25,12 +25,8 @@ class Animal {
 
 export default Animal
 /*
-
 const animal = new Leon('Leon Canito', 2, 'Leon.jpg', 'algun comentario', 'SonidoDelLeon.mp3')
-
 animal.grunir()
-
 const animal2 = new Lobo('Lobo Canito', 2, 'Lobo.jpg', 'algun comentario', 'SonidoDelLobo.mp3')
-
 animal2.aullar()
 */
